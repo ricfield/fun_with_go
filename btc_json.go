@@ -28,8 +28,8 @@ func main() {
       }
 	
 	
-	  fmt.Printf("%s  %s    %s         %s     \r", time.Now().Format("01-2-2006 15:04:05"), j.Data.Base, j.Data.Currency, j.Data.Amount)
+      fmt.Printf("%s  %s    %s         %s     \r", time.Now().Format("01-2-2006 15:04:05"), j.Data.Base, j.Data.Currency, j.Data.Amount)
 
-	  time.Sleep(time.Second * 5)
+      time.Sleep(time.Second * 5)
    }
 }
