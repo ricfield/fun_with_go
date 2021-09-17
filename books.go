@@ -1,7 +1,6 @@
 package main
 import "fmt"
 
-
 func main() {
    var publisher string
    var writer string
@@ -19,14 +18,13 @@ func main() {
    pageNumber = 14
    grade = 6.5
 
-
-   fmt.Println("Publisher: " + publisher)
-   fmt.Println("Writer: " + writer)
-   fmt.Println("Artist: " + artist)
-   fmt.Println("Title: " + title)
-   fmt.Println("Year:", year)
-   fmt.Println("Total Pages:", pageNumber)
-   fmt.Println("Grade:", grade)
+   fmt.Println("Publisher: " + publisher +
+              "\nWriter: " + writer +
+              "\nArtist: " + artist +
+              "\nTitle: " + title +
+              "\nYear: " + strconv.Itoa(year) +
+              "\nTotal Pages: " + strconv.Itoa(pageNumber) +
+              "\nGrade:", grade)
 
    writer = "Ryan N. Shawn"
    artist = "Phoebe Paperclips"
@@ -34,12 +32,12 @@ func main() {
    pageNumber = 160
    grade = 9.0
 
-   fmt.Println("\nPublisher: " + publisher)
-   fmt.Println("Writer: " + writer)
-   fmt.Println("Artist: " + artist)
-   fmt.Println("Title: " + title)
-   fmt.Println("Year:", year)
-   fmt.Println("Total Pages:", pageNumber)
-   fmt.Println("Grade:", grade)
+   fmt.Println("Publisher: " + publisher +
+              "\nWriter: " + writer +
+              "\nArtist: " + artist +
+              "\nTitle: " + title +
+              "\nYear: " + strconv.Itoa(year) +
+              "\nTotal Pages: " + strconv.Itoa(pageNumber) +
+              "\nGrade:", grade)
 
 }
